@@ -1,0 +1,56 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+  }
+  
+  .controls {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 20px;
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  .input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .button {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background 0.3s;
+  }
+  
+  .neutral {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .decline {
+    background-color: #dc3545;
+    color: white;
+  }
+  
+  .agree {
+    background-color: #28a745;
+    color: white;
+  }
+  
+  .loading {
+    text-align: center;
+    font-size: 14px;
+    color: gray;
+  }
+  
