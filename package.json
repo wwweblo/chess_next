@@ -30,6 +30,7 @@
     "recharts": "^2.15.1",
     "sanity": "^3.80.1",
     "sanity-plugin-markdown": "^5.1.0",
+    "server-only": "^0.0.1",
     "sqlite": "^5.1.1",
     "sqlite3": "^5.1.7",
     "styled-components": "^6.1.16",
